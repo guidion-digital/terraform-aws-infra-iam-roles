@@ -1,5 +1,5 @@
 module "roles" {
-  source  = source = "../"
+  source = "../../"
 
   application = "test_app"
   project     = "test_project"
