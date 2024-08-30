@@ -1,7 +1,5 @@
 module "roles" {
-  source  = "app.terraform.io/guidion/infra-iam-roles/aws"
-  version = "0.0.4"
-
+  source = "../../"
 
   application = "test_app"
   project     = "test_project"
